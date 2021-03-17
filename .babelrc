@@ -5,10 +5,7 @@
     {
       "useBuiltIns": "usage", // alternative mode: "entry"
       "corejs": 3, // default would be 2
-      "targets": {
-        "node": "12.21.0"
-      },
-      "modules": false
+      "targets": "> 0.25%, not dead" 
       // set your own target environment here (see Browserslist)
     }
   ]
