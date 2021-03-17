@@ -1,0 +1,30 @@
+{
+  "name": "internet-speed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js",
+    "build": "babel index.js -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^6.2.2",
+    "@sentry/tracing": "^6.2.2",
+    "core-js": "^3.9.1",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.3.0",
+    "regenerator-runtime": "^0.13.7",
+    "speedtest-net": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
+}
