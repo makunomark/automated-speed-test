@@ -8,7 +8,7 @@ const calculateSpeed = async () => {
   var response = null;
   try {
     console.log("Calculating...");
-    response = await speedTest();
+    response = await speedTest({ acceptLicense: true });
     console.log("Done calculating.");
   } catch (err) {
     console.log("Calculation failed:", err);
